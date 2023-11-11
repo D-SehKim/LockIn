@@ -20,7 +20,4 @@ class Capture:
             print("Error: Could not read frame.")
             return None
 
-        frame = cv2.flip(frame, 1)                                       # Flip and display the frame in window
-        cv2.imshow("Webcam", frame)
-
         return frame
