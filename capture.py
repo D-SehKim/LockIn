@@ -6,7 +6,7 @@ def open_capture(self):
     if not capture.isOpened():                                      # Check if webcam was opened correctly
         print("Error: Could not open webcam.")
         return None
-        return capture
+    return capture
     
 def close_capture(self, capture):
     capture.release()                                               # Release the webcam, close  window
