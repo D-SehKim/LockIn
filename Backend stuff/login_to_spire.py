@@ -17,7 +17,7 @@ text_to_input = "imei@umass.edu"
 textbox.send_keys(text_to_input)
 
 # Submit the form if needed
-# textbox.submit()
+textbox.submit()
 
 # Get the updated URL (optional)
 updated_url = driver.current_url
@@ -29,4 +29,4 @@ response = requests.get(updated_url)
 print(response.text)
 
 # Close the browser window
-driver.quit()
+# driver.quit()
