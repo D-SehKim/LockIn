@@ -7,5 +7,6 @@ def find_faces(frame):
 
 def draw_boxes(frame, faces):
     for (x, y, width, height) in faces:
-        cv2.rectangle(frame, (x, y), (x + width, y + height), (0, 255, 0), 5)
+        # cv2.rectangle(frame, (x, y), (x + width, y + height), (0, 255, 0), 5)
+        frame = frame[y + 50:(y + height//2), x + 25:(x + width//2)]
     return frame
