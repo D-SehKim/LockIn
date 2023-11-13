@@ -9,8 +9,8 @@ The program:
 - Feeds images of the user's eyes into a second neural network to predict if the user is looking at the screen
 
 ### Installation and Use
-Fork the project.  
-Requires the NumPy, Pandas, Keras, and OpenCV libraries.
+Fork the project and run testing_file.py.  
+Requires the NumPy, Pandas, Keras, OpenCV, Python Imaging Library, Serial, Plyer, and Pygame libraries.
 
 ### Contributors
 Ashley Chan  
